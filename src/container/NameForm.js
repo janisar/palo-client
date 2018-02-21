@@ -51,6 +51,7 @@ class NameForm extends React.Component {
             if (!isNaN(result)) {
                 this.setState({zeros: result})
             } else {
+                console.error(result);
                 this.setState({zeros: "Something went wrong, please try again soon."})
             }
         }
