@@ -1,0 +1,21 @@
+.NameForm {
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+}
+.NameInput {
+    width: 33%;
+    margin: auto;
+    display: inline;
+}
+.NameInputWrapper {
+    width: 80%;
+    display: inline;
+}
+.NameButton {
+    width: 20%;
+    display: inline-block;
+    min-width: 160px;
+    float: right;
+    margin-top: 4%;
+}
